@@ -1,0 +1,19 @@
+package academy.devdojo.maratonajava.javacore.Dconstrutores.Test;
+
+
+import academy.devdojo.maratonajava.javacore.Dconstrutores.dominio.Anime;
+
+public class AnimeTest01 {
+    public static void main(String[] args) {
+        Anime anime = new Anime("Akudama","Rádio",55,"Aventura","Desenvolvimento" );
+        //Anime anime2 = new Anime();
+//        anime.init("Pedroka","Cinema",22);
+//       anime.init("Maloka","Rádio",55,"Aventura");
+        //anime.setGenero("Ação");
+//        anime.setNome("Super Máquina");
+//        anime.setTipo("TV");
+//        anime.setEpisodios(12);
+        anime.imprime();
+    //
+    }
+}
